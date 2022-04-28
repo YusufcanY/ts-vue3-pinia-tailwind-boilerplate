@@ -1,4 +1,4 @@
-export const trimAddress = (address: string) => {
+export const trimAddress = (address: string): string => {
   return (
     address.substring(0, 6) + "..." + address.substring(address.length - 4)
   );
